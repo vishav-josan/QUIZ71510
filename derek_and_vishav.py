@@ -13,7 +13,7 @@ def replace_all(input_file, output_file, search, replace):
     :precondition: search must be a string
     :precondition: replace must be a string
     :postcondition: rewrites contents of input_file in output file with all instances of search replaced with replace
-    :return: an integer for the number of words that were replaced
+ :return: an integer for the number of words that were replaced
     """
     with open(input_file) as file_object:
         contents = file_object.read()
